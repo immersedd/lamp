@@ -63,3 +63,8 @@ pip install -r requirements.txt
    ```bash
    bash run_training.sh
 
+### Data Acquisition
+  Usage:
+  - ./run_workloads.sh           → use conf.ini
+  - or batch execution of triplets → provide workload, output, db_name
+
