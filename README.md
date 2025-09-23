@@ -49,5 +49,17 @@ pip install -r requirements.txt
       - Implements workload sampling logic. Can generate workloads from query sets for training/testing.
   - model_utils/
     - modules for model training and evaluation.
+## Usage
+1. Edit the paths and parameters at the top of the script:
+   - `PROJECT_ROOT`: project root directory
+   - `PY_SCRIPT`: training entry script (default `src/training.py`)
+   - `LOG_DIR`: output directory for logs
+   - `JSON_PATHS`: list of workload data files
+   - `MODELS`: list of model names to train
 
+2. Adjust batch sizes and concurrency limits (`BATCH_JOBS_LIMITS`) as needed.
+
+3. Run the script:
+   ```bash
+   bash run_training.sh
 
