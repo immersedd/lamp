@@ -49,6 +49,10 @@ pip install -r requirements.txt
       - Implements workload sampling logic. Can generate workloads from query sets for training/testing.
   - model_utils/
     - modules for model training and evaluation.
+
+## Datasets
+The dataset can be obtained from the following link: https://drive.google.com/file/d/18-BK_67iImwTUE_D38g4bouqWbIFJg-D/view?usp=drive_link
+
 ## Usage
 1. Edit the paths and parameters at the top of the script:
    - `PROJECT_ROOT`: project root directory
@@ -66,4 +70,5 @@ pip install -r requirements.txt
 ### Data Acquisition
   - ./run_workloads.sh           → use conf.ini
   - or batch execution of triplets → provide workload, output, db_name
+
 
