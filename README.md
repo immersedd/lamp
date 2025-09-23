@@ -17,6 +17,7 @@ wget https://ftp.postgresql.org/pub/source/v15.6/postgresql-15.6.tar.gz
   - scipy==1.10.1
   - psycopg2-binary==2.9.10
   - scikit-learn==1.3.2
+  
 Install dependencies:
 ```bash
 pip install -r requirements.txt
