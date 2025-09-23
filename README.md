@@ -24,8 +24,8 @@ pip install -r requirements.txt
 
 ## Data Preparation
   - Place workload data files (JSON format) in workloads/data/.
-  - Example provided: F_job_N5_W30_R0.json.
   - Use workloads/sampler.py to generate workloads.
+  - Example provided: F_job_N5_W30_R0.json.
 
 ## File Descriptions
   - src/
