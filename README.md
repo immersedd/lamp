@@ -42,6 +42,8 @@ pip install -r requirements.txt
       - End-to-end feature engineering pipeline.
     - conf.ini
       - Default configuration file, specifying hyperparameters, dataset paths, and runtime options.
+    - training.py
+      - training script for workload prediction models.
   - workloads/
     - sampler.py
       - Implements workload sampling logic. Can generate workloads from query sets for training/testing.
